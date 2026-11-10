@@ -65,7 +65,7 @@ export default async function HomePage() {
             </h1>
             <p className="animate-fade-up mt-6 max-w-xl text-lg text-muted" style={{ "--d": "220ms" } as React.CSSProperties}>{hero.subheadline ?? "Software engineering, AI, cybersecurity, cloud and data."}</p>
             <div className="animate-fade-up mt-10 flex flex-wrap gap-3" style={{ "--d": "340ms" } as React.CSSProperties}>
-              <ButtonLink href="/contact" arrow className="px-6 py-3 text-base">{hero.primary_cta ?? "Discuss Your Project"}</ButtonLink>
+              <ButtonLink href="/contact" arrow className="px-6 py-3 text-base">{hero.primary_cta ?? "Get in Touch"}</ButtonLink>
               <ButtonLink href="#capabilities" variant="secondary" className="px-6 py-3 text-base">{hero.secondary_cta ?? "Explore Our Capabilities"}</ButtonLink>
             </div>
           </div>

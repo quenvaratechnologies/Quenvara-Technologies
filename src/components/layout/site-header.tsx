@@ -178,7 +178,7 @@ export function SiteHeader({ name, logo, logoOnly, items, announcement }: {
             </ul>
           </nav>
           <div className="shrink-0 border-t border-line p-4">
-            <Link href="/contact" tabIndex={mobileOpen ? 0 : -1} className="btn-sheen flex items-center justify-center gap-2 rounded-lg bg-brand px-4 py-3 font-medium text-white shadow-sm">Discuss Your Project<ArrowRight className="h-4 w-4" aria-hidden /></Link>
+            <Link href="/contact" tabIndex={mobileOpen ? 0 : -1} className="btn-sheen flex items-center justify-center gap-2 rounded-lg bg-brand px-4 py-3 font-medium text-white shadow-sm">Get In Touch<ArrowRight className="h-4 w-4" aria-hidden /></Link>
           </div>
         </div>
       </div>

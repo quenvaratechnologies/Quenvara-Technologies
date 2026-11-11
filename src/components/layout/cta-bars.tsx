@@ -22,7 +22,7 @@ export function MobileCta() {
   return (
     <div ref={ref} data-show="false" className="pointer-events-none fixed inset-x-0 bottom-0 z-30 translate-y-full p-3 transition-transform duration-300 data-[show=true]:pointer-events-auto data-[show=true]:translate-y-0 lg:hidden">
       <Link href="/contact" className="btn-sheen flex items-center justify-center gap-2 rounded-xl btn-grad px-4 py-3.5 text-sm font-semibold text-white shadow-[0_12px_32px_-8px_rgba(37,99,235,0.6)]">
-        Discuss Your Project<ArrowRight className="h-4 w-4" aria-hidden />
+        Get In Touch<ArrowRight className="h-4 w-4" aria-hidden />
       </Link>
     </div>
   );
@@ -42,7 +42,7 @@ export function PreFooterCta({ heading, body, email }: { heading: string; body: 
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted">{body}</p>
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
             <Link href="/contact" className="btn-sheen group inline-flex items-center gap-2 rounded-lg btn-grad px-6 py-3 font-medium text-white shadow-[0_12px_32px_-10px_rgba(37,99,235,0.8)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-brand-hover">
-              Discuss Your Project<ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" aria-hidden />
+              Get In Touch<ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" aria-hidden />
             </Link>
             {email && <a href={`mailto:${email}`} className="inline-flex items-center gap-2 rounded-lg border border-white/25 px-6 py-3 font-medium text-white transition-colors hover:bg-white/10"><Mail className="h-4 w-4" aria-hidden />{email}</a>}
           </div>
